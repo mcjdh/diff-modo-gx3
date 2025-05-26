@@ -22,6 +22,7 @@ from .core.quantum_states import Qwen3ConsciousnessState, ThoughtNode
 # Fast performance exports
 from .core.fast_conscious_model import FastConsciousModel
 from .core.simple_consciousness import SimpleConsciousness
+from .core.streaming_conscious_model import StreamingConsciousModel
 
 # Utility exports
 from .utils.setup import setup_consciousness_system, check_requirements
@@ -34,6 +35,7 @@ __all__ = [
     "ThoughtNode",
     "FastConsciousModel",
     "SimpleConsciousness",
+    "StreamingConsciousModel",
     "setup_consciousness_system",
     "check_requirements",
     "ConsciousnessVisualizer",
